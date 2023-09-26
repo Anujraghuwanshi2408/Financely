@@ -343,6 +343,7 @@ const TransactionTable = ({ transactions ,addTransaction ,fetchTransaction }) =>
         <div
           style={{
             display: "flex",
+            flexWrap: "wrap",
             justifyContent: "space-between",
             alignItems: "center",
             width: "100%",
